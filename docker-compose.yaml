@@ -1,0 +1,8 @@
+---
+services:
+  nginx:
+    image: "nginx:latest"
+    volumes:
+      - "./src:/usr/share/nginx/html:ro"
+    ports:
+      - "80:80"

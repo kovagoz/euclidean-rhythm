@@ -1,0 +1,23 @@
+/*
+ * Sequencer LEDs
+ */
+
+.sequencer {
+    display: flex;
+    gap: 10px;
+    justify-content: center
+}
+
+.step {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.step-on {
+    background-color: LightSalmon;
+}
+
+.step-off {
+    background-color: white;
+}
